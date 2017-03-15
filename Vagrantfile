@@ -22,6 +22,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get update --fix-missing;
     sudo apt-get install -y python-pip;
     sudo pip install ansible;
+    sudo pip install markupsafe;
     sudo apt-get autoremove -y;
   SHELL
 
